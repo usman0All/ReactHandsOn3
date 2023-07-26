@@ -1,0 +1,89 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,172,200,1) 100%);
+  }
+  #heading{
+    color: black;
+    position: absolute;
+    left:33%;
+    text-shadow: 0px 2px 0px red;
+  }
+  #form{
+    position: absolute;
+    top:80px;
+    left:34%;
+    /* border: 3px solid red; */
+    width: 400px;
+    height: 230px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .name,.dept,.rate{
+        color:black;
+        font-size: larger;
+        font-weight: bold;
+    }
+  #name,#dept,#Rating{
+    border-radius: 20px;
+    background-color: skyblue;
+    padding:10px;
+    border:2px solid black;
+    width:200px;
+  }
+  .btn{
+    background-color: skyblue;
+    position: absolute;
+    left: 26%;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding:10px;
+    width:200px;
+    height:50px;
+    border:2px solid black;
+    font-size: large;
+    font-weight: bold;
+}
+  .go-back-btn{
+    background-color: skyblue;
+    position:fixed;
+    left: 40%;
+    bottom: 60px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding:10px;
+    width:200px;
+    height:50px;
+    border:2px solid black;
+    font-size: large;
+    font-weight: bold;
+}
+  .bth:hover{
+    background-color: aqua;
+    border:2px solid red;
+  }
+  .dis-data{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border:3px solid black;
+    position: absolute;
+    width:900px;
+    height: auto;
+    left:15%;
+    top:100px;
+    background-color: skyblue;
+    padding:20px;
+  } 
+  .child{
+    background-color:rgb(243, 23, 60);
+    border-radius:20px;
+    color:black;
+    font-size: large;
+    font-weight: bold;
+    width:410px;
+    height:60px;
+    text-align: center;
+    padding-top:20px;
+    margin-bottom: 10px;
+}
+  
